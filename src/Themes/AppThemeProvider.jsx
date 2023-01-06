@@ -1,11 +1,12 @@
 import { createTheme, ThemeProvider } from '@mui/material';
 import React from 'react'
 
-const AppThemeProvider = () => {
-    const theme = createTheme({});
+const theme = createTheme({});
+
+const AppThemeProvider = (prop) => {
     return (
         <ThemeProvider theme={theme}>
-        
+            {prop.children}
         </ThemeProvider>
     );
 }
