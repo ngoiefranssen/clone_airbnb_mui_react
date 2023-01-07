@@ -1,6 +1,8 @@
 import { Box } from '@mui/material';
 import { Container } from '@mui/system';
 import React from 'react'
+import { dFlex, flexBetweenCenter } from '../Themes/ComStyles';
+import Logo from '../Components/Logo'
 
 const Header = () => {
   return (
@@ -14,9 +16,12 @@ const Header = () => {
         <Container maxWidth='xl'>
             <Box
                 sx={{
-                    ...flex
-                }}>
-
+                    ...flexBetweenCenter,
+                    minHeight: 70,
+                    px: 4,
+                }}
+            >
+                <Logo />
             </Box>
         </Container>
 
