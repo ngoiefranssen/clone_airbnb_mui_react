@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material'
+import { FaAirbnb } from 'react-icons/fa'
 import { pink } from '@mui/material/colors'
 import React from 'react'
 import { felxCenter } from '../Themes/CommontTheme' // FaAirbnb
