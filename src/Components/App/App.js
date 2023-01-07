@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { Box, CssBaseline } from '@mui/material';
 import Header from '../Header';
