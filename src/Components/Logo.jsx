@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import { pink } from '@mui/material/colors'
 import React from 'react'
-import { felxCenter } from '../Themes/CommontTheme'
+import { felxCenter } from '../Themes/CommontTheme' // FaAirbnb
 
 const Logo = () => {
   return (
@@ -10,8 +10,12 @@ const Logo = () => {
       <Typography sx= {{
         ml: 1,
         color: theme => theme.palette.secondary.main,
-      }}>
-
+        fontSize: '20px',
+        fontWeight: 'bold',
+      }}
+      component='h3'
+      >
+        airbnb
       </Typography>
     </Box>
   )
