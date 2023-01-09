@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import React from 'react'
 
 const OptionsTab = () => {
@@ -6,7 +7,9 @@ const OptionsTab = () => {
         setValue(newEvent);
     }
     return (
-        <div>OptionsTab</div>
+        <Container>
+
+        </Container>
     )
 }
 
