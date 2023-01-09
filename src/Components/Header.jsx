@@ -3,6 +3,7 @@ import { Container } from '@mui/system';
 import React from 'react'
 import { dFlex, flexBetweenCenter } from '../Themes/ComStyles';
 import Logo from '../Components/Logo'
+import LocationSearch from './LocationSearch';
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
                 }}
             >
                 <Logo />
+                <LocationSearch />
             </Box>
         </Container>
 
