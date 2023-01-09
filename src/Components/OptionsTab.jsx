@@ -31,10 +31,10 @@ const OptionsTab = () => {
                     >
                         {
                             locationsTab.map((tab) => {
-                                return <Tab key={tab.id} icon={tab.com} />
+                                return <Tab key={tab.id} icon={tab.icon} label={tab.label}/>
                             })
                         }
-                    </Tabs>
+                </Tabs>
             </Box>
         </Container>
     )
