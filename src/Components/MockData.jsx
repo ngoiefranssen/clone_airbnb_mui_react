@@ -76,55 +76,55 @@ const locations = [
         locationImages: [
             {
                 id: 1,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1494984858525-798dd0b282f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
             },
             {
                 id: 2,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1593522131640-d4e54be09e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
             },
             {
                 id: 3,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1584709521634-a43d8bb202f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'
             },
             {
                 id: 4,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1601328305394-1a8f0be2fdc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80'
             },
         ],
         location: '',
         days: '',
         price: '$17.999 can might',
         isNew: '',
-        rating: 2.7,
+        rating: 3.7,
     },
     {
-        id: 2,
+        id: 3,
         locationImages: [
             {
                 id: 1,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1545703399-4313b14625d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
             },
             {
                 id: 2,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
             },
             {
                 id: 3,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1623615413014-aff1c99e936f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
             },
             {
                 id: 4,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1624807006615-035c55425f45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
             },
         ],
         location: '',
         days: '',
         price: '$17.999 can might',
         isNew: '',
-        rating: 2.7,
+        rating: 1.73,
     },
     {
-        id: 2,
+        id: 4,
         locationImages: [
             {
                 id: 1,
@@ -150,7 +150,7 @@ const locations = [
         rating: 2.7,
     },
     {
-        id: 2,
+        id: 5,
         locationImages: [
             {
                 id: 1,
@@ -176,7 +176,7 @@ const locations = [
         rating: 2.7,
     },
     {
-        id: 2,
+        id: 6,
         locationImages: [
             {
                 id: 1,
@@ -202,7 +202,7 @@ const locations = [
         rating: 2.7,
     },
     {
-        id: 2,
+        id: 7,
         locationImages: [
             {
                 id: 1,
@@ -228,7 +228,7 @@ const locations = [
         rating: 2.7,
     },
     {
-        id: 2,
+        id: 8,
         locationImages: [
             {
                 id: 1,
