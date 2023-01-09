@@ -1,6 +1,7 @@
 import { Box, Button, Divider, Paper, Stack, Typography } from '@mui/material';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import React from 'react'
+import { pink } from '@mui/material/colors';
 
 
 const choices = [
