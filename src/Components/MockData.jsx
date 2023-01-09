@@ -128,24 +128,24 @@ const locations = [
         locationImages: [
             {
                 id: 1,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=674&q=80'
             },
             {
                 id: 2,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1599635406076-0f40532a59fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
             },
             {
                 id: 3,
-                url: ''
+                url: 'https://images.unsplash.com/photo-1519614356164-43acba9cb25d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
             },
             {
                 id: 4,
-                url: ''
+                url: 'https://images.unsplash.com/flagged/photo-1557296126-ae91316e5746?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
             },
         ],
         location: '',
         days: '',
-        price: '$17.999 can might',
+        price: '$157.999 can might',
         isNew: '',
         rating: 2.7,
     },
