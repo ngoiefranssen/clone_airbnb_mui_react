@@ -15,7 +15,7 @@ export const footerLayout = {
     alignItems: 'center',
 };
 
-export const felxCenter = {
+export const flexCenter = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
