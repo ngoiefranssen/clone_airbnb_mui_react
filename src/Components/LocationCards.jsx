@@ -1,4 +1,4 @@
-import { Box } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import React from 'react'
 import { locationElements as cardLocationElements } from './data/MockData'
 
@@ -11,7 +11,15 @@ const LocationCards = () => {
     return (
         <Box sx={{ mx: 2 }}>
             <Grid container rowSpacing={3} columnSpacing={3}>
-                
+               {
+                    cards.map((location) => {
+                        return(
+                            <Grid key={location.id} xs={12} sm={2} md={4} lg={3}>
+                                { location.location }
+                            </Grid>
+                        )
+                    })
+               } 
             </Grid>
         </Box>
     )
