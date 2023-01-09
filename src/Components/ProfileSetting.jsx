@@ -3,7 +3,7 @@ import React from 'react'
 import { flexCenter } from '../Themes/ComStyles'
 import { FaRegUserCircle } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
-
+import { BsGlobe } from 'react-icons/bs'
 
 const ProfileSetting = () => {
   return (
