@@ -1,4 +1,5 @@
-import { Button, Divider, Paper, Stack, Typography } from '@mui/material';
+import { Box, Button, Divider, Paper, Stack, Typography } from '@mui/material';
+import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import React from 'react'
 
 
@@ -27,9 +28,25 @@ const LocationSearch = () => {
                 choices.map((choice) => {
                     return(
                        <Button key={choice.id}>
-                        <Typography sx={{
-                            color: (theme) => theme.palette.text.primary
-                        }}></Typography>
+                            <Typography sx={{
+                                color: (theme) => theme.palette.text.primary,
+                                fontWeight: 'bold' 
+                            }}>
+                                {choice.text}
+                            </Typography>
+                            {
+                                choice.withIcon && (
+                                    <Box
+                                        sx={{
+                                            ml: 1,
+                                            mt: 1,
+                                            mr: 1,
+                                        }}
+                                    >
+                                        <SearchSharpIcon color={pink[500]} size={32}/>
+                                    </Box>
+                                )
+                            }
                        </Button>
                     )
                 })
