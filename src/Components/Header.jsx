@@ -4,6 +4,7 @@ import React from 'react'
 import { dFlex, flexBetweenCenter } from '../Themes/ComStyles';
 import Logo from '../Components/Logo'
 import LocationSearch from './LocationSearch';
+import ProfileSetting from './ProfileSetting';
 
 const Header = () => {
   return (
@@ -18,12 +19,13 @@ const Header = () => {
             <Box
                 sx={{
                     ...flexBetweenCenter,
-                    minHeight: 70,
+                    minHeight: 90,
                     px: 4,
                 }}
             >
                 <Logo />
                 <LocationSearch />
+                <ProfileSetting />
             </Box>
         </Container>
 

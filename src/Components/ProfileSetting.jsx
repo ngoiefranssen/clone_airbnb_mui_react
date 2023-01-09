@@ -1,7 +1,8 @@
 import { Box, Button, Link, Stack } from '@mui/material'
 import React from 'react'
 import { flexCenter } from '../Themes/ComStyles'
-import { AiOutlineMenu, FaRegUserCircle } from 'react-icons/fa'
+import { FaRegUserCircle } from 'react-icons/fa'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 
 const ProfileSetting = () => {
