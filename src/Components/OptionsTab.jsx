@@ -1,5 +1,6 @@
-import { Box, Container, Tab, Tabs, tabsClasses } from '@mui/material';
+import { Box, Button, Container, Tab, Tabs, tabsClasses } from '@mui/material';
 import React from 'react'
+import { FaFilter } from 'react-icons/fa';
 import { locationsTab } from './MockData';
 
 const OptionsTab = () => {
@@ -35,6 +36,19 @@ const OptionsTab = () => {
                             })
                         }
                 </Tabs>
+                <Button
+                    sx={{
+                        display: { xs: 'none', md: 'block' },
+                        border: '1px solid #ddd',
+                        minWidth: 90,
+                        justifyContent: 'space-between',
+                        borderRadius: 2,
+                        textTransform: 'capitalize',
+                        py: 1,
+                        color: 'theme.pallete.text.primary',
+                    }}>
+                        <FaFilter /> Filters
+                </Button>
             </Box>
         </Container>
     )
