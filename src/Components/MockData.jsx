@@ -43,3 +43,44 @@ export const locationsTab = [
     { id: 19, label: 'Tropical', icon: <FaUmbrellaBeach size={24} /> },
     { id: 20, label: 'Amazing Pools', icon: <FaSwimmingPool size={24} /> },
 ];
+
+const locations = [
+    {
+        id: 1,
+        locationImages: [
+            {
+                id: 1,
+                url: 'https://images.unsplash.com/photo-1608744882201-52a7f7f3dd60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80' 
+            },
+            {
+                id: 2,
+                url: 'https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80' 
+            },
+            {
+                id: 3,
+                url: 'https://images.unsplash.com/photo-1601880348117-25c1127a95df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80' 
+            },
+            {
+                id: 4,
+                url: 'https://images.unsplash.com/photo-1608096299210-db7e38487075?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80' 
+            },
+        ],
+        location: 'karavia Golf, Rd.congo',
+        days: 'Nov 5-5',
+        price: '$27.37, can might',
+        isNew: true, 
+        rating : 4.5,
+        },
+        {
+            id: 2,
+            locationImages: [
+                {
+                    id: 1
+                }
+            ],
+            location: '',
+            days: '',
+            price: '$17.999 can might',
+            isNew: ''
+        }
+    ]
