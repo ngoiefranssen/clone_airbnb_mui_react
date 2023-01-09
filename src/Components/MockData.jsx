@@ -18,7 +18,7 @@ import {
     GiWaveSurfer 
 } from 'react-icons/gi'
 import { AiOutlineCoffee } from 'react-icons/ai'
-import { FaCampground, FaUmbrellaBeach, FaSwinmmingPool} from 'react-icons/fa'
+import { FaCampground, FaUmbrellaBeach, FaSwimmingPool } from 'react-icons/fa'
 import { RiEarthquakeFill } from 'react-icons/ri'
 
 export const locationsTab = [
@@ -41,5 +41,5 @@ export const locationsTab = [
     { id: 17, label: 'Cabins', icon: <MdCabin size={24} /> },
     { id: 18, label: 'Earth Homes', icon: <RiEarthquakeFill size={24} /> },
     { id: 19, label: 'Tropical', icon: <FaUmbrellaBeach size={24} /> },
-    { id: 20, label: 'Amazing Pools', icon: <FaSwinmmingPool size={24} /> },
+    { id: 20, label: 'Amazing Pools', icon: <FaSwimmingPool size={24} /> },
 ];
