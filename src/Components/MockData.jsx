@@ -44,7 +44,7 @@ export const locationsTab = [
     { id: 20, label: 'Amazing Pools', icon: <FaSwimmingPool size={24} /> },
 ];
 
-const locations = [
+const locationsElements = [
     {
         id: 1,
         locationImages: [
