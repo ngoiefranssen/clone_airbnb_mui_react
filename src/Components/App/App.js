@@ -4,6 +4,7 @@ import { Box, Container, CssBaseline } from '@mui/material';
 import Header from '../Header';
 import OptionsTab from '../OptionsTab';
 import LocationCards from '../LocationCards';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           <Container maxWidth='xl' sx={{ mb: 3 }}>
             <LocationCards />
           </Container>
+        </Box>
+        <Box>
+          <Footer />
         </Box>
       </Box>
     </React.Fragment>
