@@ -18,6 +18,16 @@ function App() {
         <Box>
           <Header />
           <OptionsTab />
+        </Box>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            flexGrow: 1,
+            height: 100,
+            overflow: 'scroll',
+          }}
+        >
           <Container maxWidth='xl' sx={{ mb: 3 }}>
             <LocationCards />
           </Container>
