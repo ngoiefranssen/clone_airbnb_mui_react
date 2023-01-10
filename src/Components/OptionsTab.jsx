@@ -1,7 +1,7 @@
 import { Box, Button, Container, Tab, Tabs, tabsClasses } from '@mui/material';
 import React from 'react'
 import { FaFilter } from 'react-icons/fa';
-import { locationsTab } from './MockData';
+import { locationsTab } from './data/MockData';
 
 const OptionsTab = () => {
     const [value, setValue] = React.useState(0)

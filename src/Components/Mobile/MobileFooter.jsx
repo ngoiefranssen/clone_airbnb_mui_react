@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Stack, Link, Box, Button } from '@mui/material/Paper';
+import { Paper, Stack, Link, Box, Button } from '@mui/material';
 import { BsGlobe } from 'react-icons/bs';
 import { justifyCenter } from '../../Themes/ComStyles';
 

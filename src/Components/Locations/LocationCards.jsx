@@ -1,11 +1,11 @@
 import { Box, Grid } from '@mui/material'
 import React from 'react'
 import CarouselCard from '../Carousel/CarouselCard'
-import { locationElements as cardLocationElements } from '../data/MockData'
+import { locationElements } from '../data/MockData'
 
 const LocationCards = () => {
 
-    const [cards] = React.useState(cardLocationElements)
+    const [cards] = React.useState(locationElements)
     if(!cards.length){
         return null
     }
