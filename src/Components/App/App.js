@@ -6,6 +6,7 @@ import OptionsTab from '../OptionsTab';
 import LocationCards from '../LocationCards';
 import Footer from '../Footer/Footer';
 import FooterMenu from '../Footer/FooterMenu';
+import { displayOnDesktop } from '../../Themes/ComStyles';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
           <FooterMenu />
         </Box>
         <Box >
-          <Footer />
+          <Footer sx={displayOnDesktop} />
         </Box>
       </Box>
     </React.Fragment>
