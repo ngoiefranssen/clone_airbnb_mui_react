@@ -7,8 +7,6 @@
     opacity: 1
 }
 
-/*.carouselCard:hover .MuiMobileStepper-dotActive {
+.carouselCard:hover .MuiMobileStepper-dotActive {
     background-color: #fff
 }
-
-*/
