@@ -7,6 +7,7 @@ import LocationCards from '../LocationCards';
 import Footer from '../Footer/Footer';
 import FooterMenu from '../Footer/FooterMenu';
 import { displayOnDesktop } from '../../Themes/ComStyles';
+import MobileFooter from '../Mobile/MobileFooter';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Container maxWidth='xl' sx={{ mb: 3 }}>
             <LocationCards />
             <Box>
-
+              <MobileFooter />
             </Box>
           </Container>
         </Box>
