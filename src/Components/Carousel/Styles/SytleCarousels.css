@@ -1,6 +1,6 @@
 .carouselCard .MuiMobileStepper-root {
-    /* opacity: 0;
-    transition: all ease 1000ms; */
+    /* opacity: 0; */
+    transition: all ease 1000ms;
 }
 
 /* .carouselCard:hover .MuiMobileStepper-root {
