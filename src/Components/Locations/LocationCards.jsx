@@ -1,7 +1,7 @@
 import { Box, Grid } from '@mui/material'
 import React from 'react'
 import CarouselCard from '../Carousel/CarouselCard'
-import { locationElements as cardLocationElements } from './data/MockData'
+import { locationElements as cardLocationElements } from '../data/MockData'
 
 const LocationCards = () => {
 

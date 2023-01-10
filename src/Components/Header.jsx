@@ -5,7 +5,7 @@ import { dFlex, flexBetweenCenter, displayOnDesktop  } from '../Themes/ComStyles
 import Logo from '../Components/Logo'
 import LocationSearch from './Locations/LocationSearch';
 import ProfileSetting from './ProfileSetting';
-import MobileSearch from './MobileSearch';
+import MobileSearch from './Mobile/MobileSearch';
 
 const Header = () => {
   return (
