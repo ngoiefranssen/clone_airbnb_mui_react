@@ -1,10 +1,12 @@
 import React from 'react';
-import Paper from '@mui/material/Paper';
-import Stack from '@mui/material/Stack';
-import Link from '@mui/material/Link';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
+import {
+    Paper,
+    Stack,
+    Link,
+    Box,
+    Button,
+    Container,
+} from '@mui/material/Paper';
 import { BsGlobe } from 'react-icons/bs';
 import { IoChevronUpOutline } from 'react-icons/io5';
 
@@ -12,7 +14,7 @@ import {
   flexBetweenCenter,
   justifyCenter,
   fullWidthFlex,
-} from 'themes/commonStyles';
+} from '../themes/commonStyles';
 
 const footerLinks = [
   { id: 1, text: 'Privacy', url: '#' },
