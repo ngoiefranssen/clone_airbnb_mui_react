@@ -14,7 +14,7 @@ import {
   flexBetweenCenter,
   justifyCenter,
   fullWidthFlex,
-} from '../themes/commonStyles';
+} from '../../Themes/ComStyles';
 
 const footerLinks = [
   { id: 1, text: 'Privacy', url: '#' },
