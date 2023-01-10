@@ -3,7 +3,7 @@ import { Container } from '@mui/system';
 import React from 'react'
 import { dFlex, flexBetweenCenter, displayOnDesktop  } from '../Themes/ComStyles';
 import Logo from '../Components/Logo'
-import LocationSearch from './LocationSearch';
+import LocationSearch from './Locations/LocationSearch';
 import ProfileSetting from './ProfileSetting';
 import MobileSearch from './MobileSearch';
 
