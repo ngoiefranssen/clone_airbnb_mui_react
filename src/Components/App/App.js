@@ -5,6 +5,7 @@ import Header from '../Header';
 import OptionsTab from '../OptionsTab';
 import LocationCards from '../LocationCards';
 import Footer from '../Footer/Footer';
+import FooterMenu from '../Footer/FooterMenu';
 
 function App() {
   return (
@@ -33,8 +34,10 @@ function App() {
             <LocationCards />
           </Container>
         </Box>
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
-        <Box>
+        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+          <FooterMenu />
+        </Box>
+        <Box >
           <Footer />
         </Box>
       </Box>
