@@ -16,7 +16,7 @@ import {
   carouselImage,
   fixedBottom,
 } from 'themes/commonStyles';
-import './CarouselCard.css';
+import './Styles/StyleCarousel.css';
 
 const CarouselCard = ({ location }) => {
   const [activeStep, setActiveStep] = React.useState(0);
