@@ -1,5 +1,6 @@
 import { Box, Grid } from '@mui/material'
 import React from 'react'
+import CarouselCard from '../Carousel/CarouselCard'
 import { locationElements as cardLocationElements } from './data/MockData'
 
 const LocationCards = () => {
@@ -15,7 +16,7 @@ const LocationCards = () => {
                     cards.map((location) => {
                         return(
                             <Grid key={location.id} xs={12} sm={2} md={4} lg={3}>
-                                { location.location }
+                                <CarouselCard location={location} />
                             </Grid>
                         )
                     })
