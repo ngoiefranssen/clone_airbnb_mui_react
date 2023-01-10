@@ -6,7 +6,7 @@ import {
     Box,
     Button,
     Container,
-} from '@mui/material/Paper';
+} from '@mui/material';
 import { BsGlobe } from 'react-icons/bs';
 import { IoChevronUpOutline } from 'react-icons/io5';
 
