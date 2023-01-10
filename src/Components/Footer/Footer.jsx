@@ -39,7 +39,7 @@ const Footer = () => {
         >
           <Stack>
             <Paper>
-              <Link href="#"> 2022 Airbnb Copyright </Link>
+              <Link href="#"> 2023 Airbnb Copyright </Link>
             </Paper>
             {footerLinks.map((link) => {
               return (
