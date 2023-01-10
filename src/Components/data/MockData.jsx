@@ -408,8 +408,8 @@ const locationElements = [
         price: '$777 CAD night',
         isNew: true,
         rating: 4.8,
-      },
-      {
+    },
+    {
         id: 15,
         locationImages: [
           {
@@ -430,12 +430,12 @@ const locationElements = [
           },
         ],
         location: 'Lagos, Portugal',
-        days: 'Sep 25-Oct 2',
+        days: 'Sep 7-20',
         price: '$2,999 CAD night',
         isNew: true,
         rating: 4.88,
-      },
-      {
+    },
+    {
         id: 16,
         locationImages: [
           {
@@ -456,12 +456,12 @@ const locationElements = [
           },
         ],
         location: 'LunenBurg, Canada',
-        days: 'Oct 4-9',
+        days: 'Oct 4-19',
         price: '$500 CAD night',
         isNew: false,
         rating: 4.2,
-      },
-      {
+    },
+    {
         id: 17,
         locationImages: [
           {
@@ -482,12 +482,12 @@ const locationElements = [
           },
         ],
         location: 'Santa Rosa, US',
-        days: 'Jun 2-9',
+        days: 'Jun 2-3',
         price: '$3,369 CAD night',
         isNew: false,
         rating: 4.1,
-      },
-      {
+    },
+    {
         id: 18,
         locationImages: [
           {
@@ -508,12 +508,12 @@ const locationElements = [
           },
         ],
         location: 'Carlux, France',
-        days: 'Oct 28-Nov 4',
+        days: 'Oct 28-Nov 7',
         price: '$2511 CAD night',
         isNew: true,
         rating: 4.5,
-      },
-      {
+    },
+    {
         id: 19,
         locationImages: [
           {
@@ -538,8 +538,8 @@ const locationElements = [
         price: '$3200 CAD night',
         isNew: true,
         rating: 4.7,
-      },
-      {
+    },
+    {
         id: 20,
         locationImages: [
           {
@@ -560,9 +560,9 @@ const locationElements = [
           },
         ],
         location: 'Ressaca, Brazil',
-        days: 'Oct 2-9',
+        days: 'Oct 2-11',
         price: '$14,999 CAD night',
         isNew: false,
         rating: 4.5,
-      },
+    },
 ]
