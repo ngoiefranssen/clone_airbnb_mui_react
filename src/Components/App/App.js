@@ -33,6 +33,9 @@ function App() {
         >
           <Container maxWidth='xl' sx={{ mb: 3 }}>
             <LocationCards />
+            <Box>
+
+            </Box>
           </Container>
         </Box>
         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
