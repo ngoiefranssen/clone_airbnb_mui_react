@@ -3,10 +3,12 @@
     transition: all ease 1000ms;
 }
 
-/* .carouselCard:hover .MuiMobileStepper-root {
-    opacity: 1
+.carouselCard:hover .MuiMobileStepper-root {
+    /* opacity: 1 */
 }
 
-.carouselCard:hover .MuiMobileStepper-dotActive {
+/*.carouselCard:hover .MuiMobileStepper-dotActive {
     background-color: #fff
-} */
+}
+
+*/
