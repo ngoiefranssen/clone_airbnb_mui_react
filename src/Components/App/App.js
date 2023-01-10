@@ -33,6 +33,7 @@ function App() {
             <LocationCards />
           </Container>
         </Box>
+        <Box sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
         <Box>
           <Footer />
         </Box>
