@@ -3,7 +3,7 @@ import './App.css';
 import { Box, Container, CssBaseline } from '@mui/material';
 import Header from '../Header';
 import OptionsTab from '../OptionsTab';
-import LocationCards from '../LocationCards';
+import LocationCards from '../Locations/LocationCards';
 import Footer from '../Footer/Footer';
 import FooterMenu from '../Footer/FooterMenu';
 import { displayOnDesktop } from '../../Themes/ComStyles';
