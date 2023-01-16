@@ -310,19 +310,19 @@ export const locationElements = [
         locationImages: [
             {
                 id: 1,
-                url: 'https://unsplash.com/fr/photos/2gDwlIim3Uw'
+                url: 'https://unsplash.com/fr/photos/c5BCj8erU9I'
             },
             {
                 id: 2,
-                url: 'https://unsplash.com/fr/photos/2d4lAQAlbDA'
+                url: 'https://unsplash.com/fr/photos/SWrVvQKdE90'
             },
             {
                 id: 3,
-                url: 'https://unsplash.com/fr/photos/KQgrVfR3r74'
+                url: 'https://unsplash.com/fr/photos/95YRwf6CNw8'
             },
             {
                 id: 4,
-                url: 'https://unsplash.com/fr/photos/9rYfG8sWRVo'
+                url: 'https://unsplash.com/fr/photos/hGV2TfOh0ns'
             },
         ],
         location: 'US',
@@ -336,19 +336,19 @@ export const locationElements = [
         locationImages: [
             {
                 id: 1,
-                url: 'https://unsplash.com/fr/photos/Siuwr3uCir0'
+                url: 'https://unsplash.com/fr/photos/gySMaocSdqs'
             },
             {
                 id: 2,
-                url: 'https://unsplash.com/fr/photos/RN6ts8IZ4_0'
+                url: 'https://unsplash.com/fr/photos/CCx6Fz_CmOI'
             },
             {
                 id: 3,
-                url: 'https://unsplash.com/fr/photos/DH_u2aV3nGM'
+                url: 'https://unsplash.com/fr/photos/68csPWTnafo'
             },
             {
                 id: 4,
-                url: 'https://unsplash.com/fr/photos/AD6rn3vqG7o'
+                url: 'https://unsplash.com/fr/photos/1rBg5YSi00c'
             },
         ],
         location: 'Kinshasa, RDCongo',
@@ -362,19 +362,19 @@ export const locationElements = [
         locationImages: [
             {
                 id: 1,
-                url: 'https://unsplash.com/fr/photos/Wlc5n-Qi7hU'
+                url: 'https://unsplash.com/fr/photos/t2Sai-AqIpI'
             },
             {
                 id: 2,
-                url: 'https://unsplash.com/fr/photos/S1_uPZATtVs'
+                url: 'https://unsplash.com/fr/photos/QwoNAhbmLLo'
             },
             {
                 id: 3,
-                url: 'https://unsplash.com/fr/photos/dQND1WZ4pNI'
+                url: 'https://unsplash.com/fr/photos/G5A5ZNjS2tE'
             },
             {
                 id: 4,
-                url: 'https://unsplash.com/fr/photos/jgrvmbvNAlY'
+                url: 'https://unsplash.com/fr/photos/y6O1anKS71g'
             },
         ],
         location: 'Kenya',
